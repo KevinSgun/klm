@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/h160"
+    android:background="@drawable/sl_common_item">
+
+    <TextView
+        android:id="@+id/emp_name_tv"
+        style="@style/TextBlank.Medium"
+        android:layout_marginTop="@dimen/h30"
+        android:layout_marginLeft="@dimen/w30"
+        android:text="张三" />
+
+    <TextView
+        android:id="@+id/position_tv"
+        style="@style/TextBlank.Small"
+        android:layout_below="@id/emp_name_tv"
+        android:layout_marginLeft="@dimen/w30"
+        android:layout_marginTop="@dimen/h14"
+        android:layout_marginBottom="@dimen/h20"
+        android:text="设计师"
+        android:textColor="@color/textColorPrimaryGray" />
+
+    <TextView
+        android:id="@+id/phone_num_tv"
+        style="@style/TextBlank.Small"
+        android:layout_below="@id/emp_name_tv"
+        android:layout_marginLeft="@dimen/w30"
+        android:layout_marginTop="@dimen/h14"
+        android:layout_marginBottom="@dimen/h20"
+        android:layout_toRightOf="@id/position_tv"
+        android:text="13245678909"
+        android:textColor="@color/textColorPrimaryGray" />
+    <ImageView
+        android:layout_width="@dimen/w18"
+        android:layout_height="@dimen/h26"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/w30"
+        android:src="@mipmap/ic_arrow_gray"/>
+    <View
+        style="@style/DividerHorizontalLine"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

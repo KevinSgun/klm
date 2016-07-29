@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color">
+
+    <ImageView
+        android:layout_width="@dimen/w312"
+        android:layout_height="@dimen/h314"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/h243"
+        android:src="@mipmap/icon_app_and_txt" />
+
+    <LinearLayout
+        android:id="@+id/tenants_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/w185"
+        android:layout_marginBottom="@dimen/h250"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="@dimen/w100"
+            android:layout_height="@dimen/w100"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_circle_yellow">
+
+            <ImageView
+                android:layout_width="@dimen/w57"
+                android:layout_height="@dimen/w51"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_tenants" />
+        </FrameLayout>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/h30"
+            android:textSize="@dimen/w32"
+            android:textColor="@color/textColorSecondary"
+            android:text="@string/tenants_login"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tenants_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="@dimen/w185"
+        android:layout_marginBottom="@dimen/h250"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="@dimen/w100"
+            android:layout_height="@dimen/w100"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_circle_blue">
+
+            <ImageView
+                android:layout_width="@dimen/w63"
+                android:layout_height="@dimen/w57"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_employee" />
+        </FrameLayout>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/h30"
+            android:textSize="@dimen/w32"
+            android:textColor="@color/textColorSecondary"
+            android:text="@string/employee_login"
+            />
+    </LinearLayout>
+</FrameLayout>

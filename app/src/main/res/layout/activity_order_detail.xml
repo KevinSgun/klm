@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/w100"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/w30"
+        android:paddingRight="@dimen/w30">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/order_num_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="订单编号：2016010112001300ABCD"
+                android:textColor="@color/textColorPrimaryGray"
+                android:textSize="@dimen/w20" />
+
+            <TextView
+                android:id="@+id/order_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/w10"
+                android:singleLine="true"
+                android:text="下单时间：2011-11-22"
+                android:textColor="@color/textColorPrimaryGray"
+                android:textSize="@dimen/w20" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w55"
+            android:singleLine="true"
+            android:text="待付款"
+            android:textColor="@color/textColorPink"
+            android:textSize="@dimen/w26" />
+    </LinearLayout>
+
+    <View style="@style/DividerHorizontalLine" />
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutStyle"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/h20">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="消费用户：" />
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_marginLeft="@dimen/w28"
+            android:text="卢代倩" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutStyle"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/h20">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="联系方式：" />
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_marginLeft="@dimen/w28"
+            android:text="13999999999" />
+    </LinearLayout>
+
+    <View style="@style/DividerHorizontalLine"
+        android:layout_marginTop="@dimen/h20"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/w30">
+
+        <FrameLayout
+            android:layout_width="@dimen/w140"
+            android:layout_height="@dimen/w140"
+            android:background="@drawable/bg_stroke_gray">
+
+            <com.zitech.framework.widget.RemoteImageView
+                android:id="@+id/shop_icon_iv"
+                android:layout_width="@dimen/w72"
+                android:layout_height="@dimen/w72"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_shop_def" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w20"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/shop_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="快来美美发店"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/w24" />
+
+            <TextView
+                android:id="@+id/consumer_items_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/h19"
+                android:text="泰式洗头+造型总监发型精修"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="@dimen/w20" />
+
+            <TextView
+                android:id="@+id/consumer_technician_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/h5"
+                android:text="1号 刘一党"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="@dimen/w20" />
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"
+        android:layout_marginTop="@dimen/h20"/>
+</LinearLayout>

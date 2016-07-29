@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/w65"
+        android:background="@color/bg_color"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/w30"
+        android:text="请选择您需要绑定的账户类型："
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/w24" />
+
+    <cn.kuailaimei.store.common.widget.MutilRadioGroup
+        android:id="@+id/bank_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/bank_rb"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/h100"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/sl_common_item"
+                android:button="@null"
+                android:drawablePadding="@dimen/w19"
+                android:drawableRight="@drawable/sl_service_item"
+                android:gravity="center_vertical"
+                android:paddingRight="@dimen/w30" />
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="@dimen/w30"
+                android:textSize="@dimen/w32"
+                android:text="银行卡" />
+        </FrameLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/zfb_rb"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/h100"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/sl_common_item"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="@dimen/w19"
+                android:drawableRight="@drawable/sl_service_item"
+                android:gravity="center_vertical"
+                android:paddingRight="@dimen/w30" />
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="@dimen/w30"
+                android:textSize="@dimen/w32"
+                android:text="支付宝" />
+        </FrameLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+    </cn.kuailaimei.store.common.widget.MutilRadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/w20"
+        android:background="@color/bg_color"/>
+    <LinearLayout
+        android:id="@+id/bank_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="银行卡号"
+                />
+
+            <EditText
+                android:id="@+id/bank_account_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w84"
+                android:hint="请输入您的银行卡号" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="开户银行"
+                />
+
+            <EditText
+                android:id="@+id/bank_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w84"
+                android:hint="请输入开户银行" />
+        </LinearLayout>
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="开户支行"
+                />
+
+            <EditText
+                android:id="@+id/bank_point_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w84"
+                android:hint="请输入开户支行" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="开户人姓名"
+                />
+
+            <EditText
+                android:id="@+id/bank_account_name_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w56"
+                android:hint="请输入真实开户人姓名" />
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/zfb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="支付宝账号"
+                />
+
+            <EditText
+                android:id="@+id/zfb_account_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w28"
+                android:hint="请输入您的支付宝账号" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="账户名"
+                 />
+
+            <EditText
+                android:id="@+id/zfb_account_name_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w84"
+                android:hint="请输入您的支付宝账户名" />
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/w24"
+        android:paddingTop="@dimen/w20"
+        android:paddingLeft="@dimen/w30"
+        android:background="@color/bg_color"
+        android:textColor="@color/textColorSecondary"
+        android:text="为保障您能及时收到货款，请务必输入您的真实信息，我们不会向任何第三方泄露您的信息。"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_color" />
+
+    <Button
+        android:id="@+id/re_biding_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h100"
+        android:background="@drawable/btn_common_react"
+        android:text="确认绑定"
+        android:textColor="@color/white"
+        android:textSize="@dimen/w32" />
+</LinearLayout>

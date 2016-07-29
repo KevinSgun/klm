@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/w30"
+    android:paddingRight="@dimen/w30">
+
+    <EditText
+        android:id="@+id/msg_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/h30"
+        android:minHeight="@dimen/h400"
+        android:background="@drawable/bg_stroke_white_gray"
+        android:gravity="left|top"
+        android:hint="输入向客户推送的消息内容（100字以内）"
+        android:textSize="@dimen/w28"
+        android:maxLength="100"
+        android:padding="@dimen/w30"
+        android:textColor="@color/textColorPrimary"
+        android:textColorHint="@color/textColorSecondary" />
+
+    <Button
+        android:id="@+id/commit_btn"
+        style="@style/CommonButtonStyle"
+        android:layout_width="@dimen/w660"
+        android:layout_height="@dimen/h90"
+        android:layout_marginTop="@dimen/h50"
+        android:text="推送"
+        android:textSize="@dimen/w36" />
+</LinearLayout>

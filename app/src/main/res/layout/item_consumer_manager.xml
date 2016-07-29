@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sl_common_item">
+    <LinearLayout
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <TextView
+            android:id="@+id/consumer_item_name_tv"
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="项目名称"/>
+        <TextView
+            android:id="@+id/consumer_money_tv"
+            style="@style/TextBlank.Medium"
+            android:paddingLeft="@dimen/w30"
+            android:textColor="@color/textColorPink"
+            android:text="@string/rmb"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w20"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"
+        android:layout_marginLeft="@dimen/w30"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/w20">
+<TextView
+    android:id="@+id/msg_date_tv"
+    style="@style/TextBlank.Medium"
+    android:textColor="@color/textColorSecondary"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/w20"
+    android:layout_marginTop="@dimen/w20"
+    android:text=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/w80"
+            android:layout_height="@dimen/w80"
+            android:layout_marginLeft="@dimen/w30"
+            android:background="@drawable/bg_circle_pink">
+
+            <ImageView
+                android:layout_width="@dimen/w49"
+                android:layout_height="@dimen/w43"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_msg_item_pic" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/msg_content_tv"
+            style="@style/TextBlank.Medium"
+            android:layout_marginLeft="@dimen/w20"
+            android:width="@dimen/w480"
+            android:background="@drawable/bg_stroke_white_gray"
+            android:padding="@dimen/w20"
+            android:text=""
+            android:textColor="@color/textColorSecondary" />
+    </LinearLayout>
+</LinearLayout>

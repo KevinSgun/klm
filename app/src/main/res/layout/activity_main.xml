@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="@dimen/h1"
+        android:background="#eeeeee"/>
+    <RadioGroup
+        android:id="@+id/main_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/h100"
+        android:layout_alignParentBottom="true"
+        android:background="#e5ffffff"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_menu_home"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="@dimen/h6"
+            android:drawableTop="@drawable/sl_home"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/h12"
+            android:text="首页"
+            android:textColor="@color/home_text_color"
+            android:textSize="@dimen/w20" />
+
+        <RadioButton
+            android:id="@+id/main_menu_store_manager"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/h6"
+            android:drawableTop="@drawable/sl_store_manager"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/h12"
+            android:text="管理"
+            android:textColor="@color/home_text_color"
+            android:textSize="@dimen/w20" />
+
+        <RadioButton
+            android:id="@+id/main_menu_mine"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/h6"
+            android:drawableTop="@drawable/sl_mine"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/h12"
+            android:text="我的"
+            android:textColor="@color/home_text_color"
+            android:textSize="@dimen/w20" />
+    </RadioGroup>
+
+</LinearLayout>

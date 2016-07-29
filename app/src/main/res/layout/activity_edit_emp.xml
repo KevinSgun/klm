@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="姓名"
+            />
+
+        <EditText
+            android:id="@+id/store_name_et"
+            style="@style/CommonEditStyle"
+            android:layout_marginLeft="@dimen/w54"
+            android:hint="请输入员工姓名"
+            android:maxLength="16"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/DividerHorizontalLine"
+        android:layout_marginLeft="@dimen/w30" />
+    <LinearLayout
+        android:id="@+id/choose_position_layout"
+        style="@style/CommonLinearLayoutStyle">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="职位"
+           />
+
+        <TextView
+            android:id="@+id/position_tv"
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/w54"
+            android:layout_weight="1"
+            android:maxLength="13"
+            android:singleLine="true"
+            android:hint="请选择职位" />
+
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+
+    <View
+        style="@style/DividerHorizontalLine"
+        android:layout_marginLeft="@dimen/w30" />
+    <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="工号"
+           />
+
+        <EditText
+            android:id="@+id/job_num_et"
+            style="@style/CommonEditStyle"
+            android:layout_marginLeft="@dimen/w54"
+            android:hint="请设置员工工号"
+            android:maxLength="16"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/DividerHorizontalLine"
+        android:layout_marginLeft="@dimen/w30" />
+    <LinearLayout
+        android:id="@+id/emp_account_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="账号"
+            />
+
+        <EditText
+            android:id="@+id/emp_account_et"
+            style="@style/CommonEditStyle"
+            android:layout_marginLeft="@dimen/w54"
+            android:hint="请设置员工账号(手机号)"
+            android:maxLength="16"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/DividerHorizontalLine"
+        android:layout_marginLeft="@dimen/w30" />
+    <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="密码"
+            />
+
+        <EditText
+            android:id="@+id/account_psd_et"
+            style="@style/CommonEditStyle"
+            android:layout_marginLeft="@dimen/w54"
+            android:hint="请设置员工密码"
+            android:maxLength="16"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+    <View style="@style/DividerHorizontalLine" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_color" />
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h100"
+        android:background="@drawable/sl_white_item"
+        android:textColor="@color/textColorPink"
+        android:textSize="@dimen/w28"
+        android:text="删除"/>
+</LinearLayout>

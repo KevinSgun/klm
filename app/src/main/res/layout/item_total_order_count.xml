@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/w30"
+    android:paddingTop="@dimen/h30"
+    >
+
+    <LinearLayout
+        android:id="@+id/staff_and_date_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/h30"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/staff_tv"
+            style="@style/TextBlank.Medium"
+            android:maxWidth="@dimen/w350"
+            android:ellipsize="end"
+            android:singleLine="true"
+            />
+        <TextView
+            android:id="@+id/start_end_date_tv"
+            style="@style/TextBlank.Small"
+            android:layout_marginTop="@dimen/w10"
+            android:textColor="@color/textColorPrimaryGray"
+            android:maxWidth="@dimen/w400"
+            android:ellipsize="end"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/order_count_tv"
+        style="@style/TextBlank.Large"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/w30"
+        android:textColor="@color/textColorPink" />
+    <View style="@style/DividerHorizontalLine"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

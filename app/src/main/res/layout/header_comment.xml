@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/w13"
+        android:background="@color/bg_color"/>
+    <LinearLayout
+        style="@style/CommonLinearLayoutStyle">
+    <TextView
+        style="@style/TextBlank.Medium"
+        android:text="满意度："/>
+        <TextView
+            android:id="@+id/satisfaction_degree_tv"
+            style="@style/TextBlank.Medium"
+            android:textColor="@color/textColorPink"
+            android:text="0%"/>
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <LinearLayout
+        android:id="@+id/review_chooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/h18"
+        android:paddingLeft="@dimen/w30"
+        android:paddingRight="@dimen/w30">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/h20"
+            android:paddingTop="@dimen/h30">
+
+            <TextView
+                android:id="@+id/all_reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/w56"
+                android:background="@drawable/sl_comment_checked"
+                android:button="@null"
+                android:checked="false"
+                android:gravity="center"
+                android:paddingLeft="@dimen/w20"
+                android:paddingRight="@dimen/w20"
+                android:text="全部评价(0)"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/high_positive_reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/w56"
+                android:layout_marginLeft="@dimen/w20"
+                android:background="@drawable/sl_comment_positive"
+                android:button="@null"
+                android:checked="false"
+                android:gravity="center"
+                android:paddingLeft="@dimen/w20"
+                android:paddingRight="@dimen/w20"
+                android:text="很满意(0)"
+                android:textColor="@color/common_pink_white_color" />
+
+            <TextView
+                android:id="@+id/positive_reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/w56"
+                android:layout_marginLeft="@dimen/w20"
+                android:background="@drawable/sl_comment_positive"
+                android:button="@null"
+                android:checked="false"
+                android:gravity="center"
+                android:paddingLeft="@dimen/w20"
+                android:paddingRight="@dimen/w20"
+                android:text="满意(0)"
+                android:textColor="@color/common_pink_white_color" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/negative_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/w56"
+            android:background="@drawable/sl_comment_negative"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:paddingLeft="@dimen/w20"
+            android:paddingRight="@dimen/w20"
+            android:text="不满意(0)"
+            android:textColor="@color/common_gray_white_color" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/w20"
+        android:background="@color/bg_color"/>
+</LinearLayout>

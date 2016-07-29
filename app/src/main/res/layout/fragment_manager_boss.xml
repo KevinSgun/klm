@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height">
+
+        <TextView
+            android:id="@+id/action_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:drawablePadding="@dimen/w10"
+            android:gravity="center"
+            android:maxWidth="@dimen/w450"
+            android:text="管理"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/w40" />
+
+        <cn.kuailaimei.store.common.widget.RippleLinearLayout
+            android:id="@+id/msg_layout"
+            android:layout_width="@dimen/w95"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:rv_centered="true">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="@dimen/w38"
+                    android:layout_height="@dimen/w38"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:src="@mipmap/ic_msg" />
+                <TextView
+                    android:id="@+id/msg_count_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/w5"
+                    android:textSize="@dimen/w14"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_circle_red"
+                    android:layout_gravity="top|right"
+                    android:layout_marginTop="@dimen/h15"
+                    android:layout_marginRight="@dimen/w15"
+                    android:visibility="gone"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/w8"
+                android:layout_marginBottom="@dimen/h20"
+                android:text="消息"
+                android:textColor="@color/textColorPink"
+                android:textSize="@dimen/w18" />
+        </cn.kuailaimei.store.common.widget.RippleLinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/w1"
+            android:layout_gravity="bottom"
+            android:background="@color/divider_color" />
+    </FrameLayout>
+
+    <TextView
+        style="@style/TextBlank.Small"
+        android:layout_width="match_parent"
+        android:background="@color/bg_color"
+        android:paddingBottom="@dimen/w10"
+        android:paddingLeft="@dimen/w30"
+        android:paddingTop="@dimen/w10"
+        android:text="管理" />
+
+    <GridView
+        android:id="@+id/manager_gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="1dp" />
+</LinearLayout>

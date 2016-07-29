@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/cash_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w48"
+            android:layout_height="@dimen/w31"
+            android:layout_marginLeft="@dimen/w2"
+            android:src="@mipmap/ic_gender_boy"/>
+        <TextView
+            android:id="@+id/partner_name_tv"
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="刘一党r"/>
+        <TextView
+            android:id="@+id/profit_tv"
+            style="@style/TextBlank.Small"
+            android:paddingLeft="@dimen/w30"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/rmb"/>
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h15"
+        android:background="@color/bg_color"/>
+</LinearLayout>

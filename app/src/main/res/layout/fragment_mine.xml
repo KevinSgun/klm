@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/common_title_bar"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h15"
+        android:background="@color/bg_color"/>
+    <LinearLayout
+        android:id="@+id/my_account_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w38"
+            android:layout_height="@dimen/w40"
+            android:src="@mipmap/ic_my_account"/>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="@string/my_account"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <LinearLayout
+        android:id="@+id/about_us_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w38"
+            android:layout_height="@dimen/w40"
+            android:src="@mipmap/ic_about_us"/>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="@string/about_us"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <LinearLayout
+        android:id="@+id/feed_back_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w38"
+            android:layout_height="@dimen/w40"
+            android:src="@mipmap/ic_feed_back"/>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="@string/feed_back"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <LinearLayout
+        android:id="@+id/setting_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w38"
+            android:layout_height="@dimen/w40"
+            android:src="@mipmap/ic_setting"/>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="@string/sys_setting"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_color"/>
+</LinearLayout>

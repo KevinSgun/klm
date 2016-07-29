@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/zfb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="支付宝账号"
+                android:textColor="@color/textColorSecondary" />
+
+            <TextView
+                android:id="@+id/zfb_account_tv"
+                style="@style/TextBlank.Medium"
+                android:layout_marginLeft="@dimen/w28"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="账户名"
+                android:textColor="@color/textColorSecondary" />
+
+            <TextView
+                android:id="@+id/zfb_account_name_tv"
+                style="@style/TextBlank.Medium"
+                android:layout_marginLeft="@dimen/w84"
+                android:text="" />
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bank_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="银行卡收款号"
+                android:textColor="@color/textColorSecondary" />
+
+            <TextView
+                android:id="@+id/bank_account_tv"
+                style="@style/TextBlank.Medium"
+                android:layout_marginLeft="@dimen/w28"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="开户银行"
+                android:textColor="@color/textColorSecondary" />
+
+            <TextView
+                android:id="@+id/bank_name_tv"
+                style="@style/TextBlank.Medium"
+                android:layout_marginLeft="@dimen/w84"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="开户人姓名"
+                android:textColor="@color/textColorSecondary" />
+
+            <TextView
+                android:id="@+id/bank_account_name_tv"
+                style="@style/TextBlank.Medium"
+                android:layout_marginLeft="@dimen/w56"
+                android:text="" />
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_color" />
+
+    <Button
+        android:id="@+id/re_biding_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h100"
+        android:background="@drawable/btn_common_react"
+        android:text="重新绑定账户"
+        android:textColor="@color/white"
+        android:textSize="@dimen/w32" />
+</LinearLayout>

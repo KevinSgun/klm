@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h15"
+        android:background="@color/bg_color"/>
+    <LinearLayout
+        android:id="@+id/cash_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w48"
+            android:layout_height="@dimen/w31"
+            android:layout_marginLeft="@dimen/w2"
+            android:src="@mipmap/ic_cash"/>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="@string/cash_performance"/>
+        <TextView
+            android:id="@+id/cash_tv"
+            style="@style/TextBlank.Small"
+            android:paddingLeft="@dimen/w30"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/rmb"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <LinearLayout
+        android:id="@+id/sale_card_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w50"
+            android:layout_height="@dimen/w36"
+            android:src="@mipmap/ic_card"/>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w30"
+            android:text="@string/sale_card_performance"/>
+        <TextView
+            android:id="@+id/sale_card_tv"
+            style="@style/TextBlank.Small"
+            android:paddingLeft="@dimen/w30"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/rmb"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <LinearLayout
+        android:id="@+id/total_order_count_layout"
+        style="@style/CommonLinearLayoutStyle"
+        android:background="@drawable/sl_common_item"
+        >
+        <ImageView
+            android:layout_width="@dimen/w33"
+            android:layout_height="@dimen/w41"
+            android:layout_marginLeft="@dimen/w8"
+            android:src="@mipmap/ic_order"/>
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/w38"
+            android:text="@string/total_order_count"/>
+        <TextView
+            android:id="@+id/total_order_count_tv"
+            style="@style/TextBlank.Small"
+            android:paddingLeft="@dimen/w30"
+            android:textColor="@color/textColorPrimary"
+            android:text="0"/>
+        <ImageView
+            android:layout_width="@dimen/w16"
+            android:layout_height="@dimen/w28"
+            android:layout_marginLeft="@dimen/w10"
+            android:src="@mipmap/ic_arrow_gray" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_color"/>
+</LinearLayout>

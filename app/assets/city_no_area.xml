@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root name="中国">
+
+  <province name="北京" postcode="110000" >
+        <city name="东城区" postcode="110101" />
+        <city name="西城区" postcode="110102" />
+        <city name="崇文区" postcode="110103" />
+        <city name="宣武区" postcode="110104" />
+        <city name="朝阳区" postcode="110105" />
+        <city name="丰台区" postcode="110106" />
+        <city name="石景山区" postcode="110107" />
+        <city name="海淀区" postcode="110108" />
+        <city name="门头沟区" postcode="110109" />
+        <city name="房山区" postcode="110111" />
+        <city name="通州区" postcode="110112" />
+        <city name="顺义区" postcode="110113" />
+        <city name="昌平区" postcode="110114" />
+        <city name="大兴区" postcode="110115" />
+        <city name="怀柔区" postcode="110116" />
+        <city name="平谷区" postcode="110117" />
+        <city name="密云县" postcode="110228" />
+        <city name="延庆县" postcode="110229" />
+  </province>
+  <province name="天津" postcode="120000" >
+        <city name="和平区" postcode="120101" />
+        <city name="河东区" postcode="120102" />
+        <city name="河西区" postcode="120103" />
+        <city name="南开区" postcode="120104" />
+        <city name="河北区" postcode="120105" />
+        <city name="红桥区" postcode="120106" />
+        <city name="塘沽区" postcode="120107" />
+        <city name="汉沽区" postcode="120108" />
+        <city name="大港区" postcode="120109" />
+        <city name="东丽区" postcode="120110" />
+        <city name="西青区" postcode="120111" />
+        <city name="津南区" postcode="120112" />
+        <city name="北辰区" postcode="120113" />
+        <city name="武清区" postcode="120114" />
+        <city name="宝坻区" postcode="120115" />
+        <city name="宁河县" postcode="120221" />
+        <city name="静海县" postcode="120223" />
+        <city name="蓟县" postcode="120225" />
+  </province>
+
+  <province name="河北省" postcode="130000" >
+    <city name="石家庄市" postcode="130100" />
+    <city name="唐山市" postcode="130200" />
+    <city name="秦皇岛市" postcode="130300" />
+    <city name="邯郸市" postcode="130400" />
+    <city name="邢台市" postcode="130500" />
+    <city name="保定市" postcode="130600" />
+    <city name="张家口市" postcode="130700" />
+    <city name="承德市" postcode="130800" />
+    <city name="沧州市" postcode="130900" />
+    <city name="廊坊市" postcode="131000" />
+    <city name="衡水市" postcode="131100" />
+  </province>
+
+  <province name="山西省" postcode="140000" >
+    <city name="太原市" postcode="140100" />
+    <city name="大同市" postcode="140200" />
+    <city name="阳泉市" postcode="140300" />
+    <city name="长治市" postcode="140400" />
+    <city name="晋城市" postcode="140500" />
+    <city name="朔州市" postcode="140600" />
+    <city name="晋中市" postcode="140700" />
+    <city name="运城市" postcode="140800" />
+    <city name="忻州市" postcode="140900" />
+    <city name="临汾市" postcode="141000" />
+    <city name="吕梁市" postcode="141100" />
+  </province>
+
+  <province name="内蒙古自治区" postcode="150000" >
+    <city name="呼和浩特市" postcode="150100" />
+    <city name="包头市" postcode="150200" />
+    <city name="乌海市" postcode="150300" />
+    <city name="赤峰市" postcode="150400" />
+    <city name="通辽市" postcode="150500" />
+    <city name="鄂尔多斯市" postcode="150600" />
+    <city name="呼伦贝尔市" postcode="150700" />
+    <city name="巴彦淖尔市" postcode="150800" />
+    <city name="乌兰察布市" postcode="150900" />
+    <city name="兴安盟" postcode="152200" />
+    <city name="锡林郭勒盟" postcode="152500" />
+    <city name="阿拉善盟" postcode="152900" />
+  </province>
+
+  <province name="辽宁省" postcode="210000" >
+    <city name="沈阳市" postcode="210100" />
+    <city name="大连市" postcode="210200" />
+    <city name="鞍山市" postcode="210300" />
+    <city name="抚顺市" postcode="210400" />
+    <city name="本溪市" postcode="210500" />
+    <city name="丹东市" postcode="210600" />
+    <city name="锦州市" postcode="210700" />
+    <city name="营口市" postcode="210800" />
+    <city name="阜新市" postcode="210900" />
+    <city name="辽阳市" postcode="211000" />
+    <city name="盘锦市" postcode="211100" />
+    <city name="铁岭市" postcode="211200" />
+    <city name="朝阳市" postcode="211300" />
+    <city name="葫芦岛市" postcode="211400" />
+  </province>
+
+  <province name="吉林省" postcode="220000" >
+    <city name="长春市" postcode="220100" />
+    <city name="吉林市" postcode="220200" />
+    <city name="四平市" postcode="220300" />
+    <city name="辽源市" postcode="220400" />
+    <city name="通化市" postcode="220500" />
+    <city name="白山市" postcode="220600" />
+    <city name="松原市" postcode="220700" />
+    <city name="白城市" postcode="220800" />
+    <city name="延边朝鲜族自治州" postcode="222400" />
+  </province>
+
+  <province name="黑龙江省" postcode="230000" >
+    <city name="哈尔滨市" postcode="230100" />
+    <city name="齐齐哈尔市" postcode="230200" />
+    <city name="鸡西市" postcode="230300" />
+    <city name="鹤岗市" postcode="230400" />
+    <city name="双鸭山市" postcode="230500" />
+    <city name="大庆市" postcode="230600" />
+    <city name="伊春市" postcode="230700" />
+    <city name="佳木斯市" postcode="230800" />
+    <city name="七台河市" postcode="230900" />
+    <city name="牡丹江市" postcode="231000" />
+    <city name="黑河市" postcode="231100" />
+    <city name="绥化市" postcode="231200" />
+    <city name="大兴安岭地区" postcode="232700" />
+  </province>
+
+  <province name="上海" postcode="310000" >
+        <city name="黄浦区" postcode="310101" />
+        <city name="卢湾区" postcode="310103" />
+        <city name="徐汇区" postcode="310104" />
+        <city name="长宁区" postcode="310105" />
+        <city name="静安区" postcode="310106" />
+        <city name="普陀区" postcode="310107" />
+        <city name="闸北区" postcode="310108" />
+        <city name="虹口区" postcode="310109" />
+        <city name="杨浦区" postcode="310110" />
+        <city name="闵行区" postcode="310112" />
+        <city name="宝山区" postcode="310113" />
+        <city name="嘉定区" postcode="310114" />
+        <city name="浦东新区" postcode="310115" />
+        <city name="金山区" postcode="310116" />
+        <city name="松江区" postcode="310117" />
+        <city name="青浦区" postcode="310118" />
+        <city name="南汇区" postcode="310119" />
+        <city name="奉贤区" postcode="310120" />
+        <city name="崇明县" postcode="310230" />
+  </province>
+
+  <province name="江苏省" postcode="320000" >
+    <city name="南京市" postcode="320100" />
+    <city name="无锡市" postcode="320200" />
+    <city name="徐州市" postcode="320300" />
+    <city name="常州市" postcode="320400" />
+    <city name="苏州市" postcode="320500" />
+    <city name="南通市" postcode="320600" />
+    <city name="连云港市" postcode="320700" />
+    <city name="淮安市" postcode="320800" />
+    <city name="盐城市" postcode="320900" />
+    <city name="扬州市" postcode="321000" />
+    <city name="镇江市" postcode="321100" />
+    <city name="泰州市" postcode="321200" />
+    <city name="宿迁市" postcode="321300" />
+  </province>
+
+  <province name="浙江省" postcode="330000" >
+    <city name="杭州市" postcode="330100" />
+    <city name="宁波市" postcode="330200" />
+    <city name="温州市" postcode="330300" />
+    <city name="嘉兴市" postcode="330400" />
+    <city name="湖州市" postcode="330500" />
+    <city name="绍兴市" postcode="330600" />
+    <city name="金华市" postcode="330700" />
+    <city name="衢州市" postcode="330800" />
+    <city name="舟山市" postcode="330900" />
+    <city name="台州市" postcode="331000" />
+    <city name="丽水市" postcode="331100" />
+  </province>
+
+  <province name="安徽省" postcode="340000" >
+    <city name="合肥市" postcode="340100" />
+    <city name="芜湖市" postcode="340200" />
+    <city name="蚌埠市" postcode="340300" />
+    <city name="淮南市" postcode="340400" />
+    <city name="马鞍山市" postcode="340500" />
+    <city name="淮北市" postcode="340600" />
+    <city name="铜陵市" postcode="340700" />
+    <city name="安庆市" postcode="340800" />
+    <city name="黄山市" postcode="341000" />
+    <city name="滁州市" postcode="341100" />
+    <city name="阜阳市" postcode="341200" />
+    <city name="宿州市" postcode="341300" />
+    <city name="巢湖市" postcode="341400" />
+    <city name="六安市" postcode="341500" />
+    <city name="亳州市" postcode="341600" />
+    <city name="池州市" postcode="341700" />
+    <city name="宣城市" postcode="341800" />
+  </province>
+
+  <province name="福建省" postcode="350000" >
+    <city name="福州市" postcode="350100" />
+    <city name="厦门市" postcode="350200" />
+    <city name="莆田市" postcode="350300" />
+    <city name="三明市" postcode="350400" />
+    <city name="泉州市" postcode="350500" />
+    <city name="漳州市" postcode="350600" />
+    <city name="南平市" postcode="350700" />
+    <city name="龙岩市" postcode="350800" />
+    <city name="宁德市" postcode="350900" />
+  </province>
+
+  <province name="江西省" postcode="360000" >
+    <city name="南昌市" postcode="360100" />
+    <city name="景德镇市" postcode="360200" />
+    <city name="萍乡市" postcode="360300" />
+    <city name="九江市" postcode="360400" />
+    <city name="新余市" postcode="360500" />
+    <city name="鹰潭市" postcode="360600" />
+    <city name="赣州市" postcode="360700" />
+    <city name="吉安市" postcode="360800" />
+    <city name="宜春市" postcode="360900" />
+    <city name="抚州市" postcode="361000" />
+    <city name="上饶市" postcode="361100" />
+  </province>
+
+  <province name="山东省" postcode="370000" >
+    <city name="济南市" postcode="370100" />
+    <city name="青岛市" postcode="370200" />
+    <city name="淄博市" postcode="370300" />
+    <city name="枣庄市" postcode="370400" />
+    <city name="东营市" postcode="370500" />
+    <city name="烟台市" postcode="370600" />
+    <city name="潍坊市" postcode="370700" />
+    <city name="济宁市" postcode="370800" />
+    <city name="泰安市" postcode="370900" />
+    <city name="威海市" postcode="371000" />
+    <city name="日照市" postcode="371100" />
+    <city name="莱芜市" postcode="371200" />
+    <city name="临沂市" postcode="371300" />
+    <city name="德州市" postcode="371400" />
+    <city name="聊城市" postcode="371500" />
+    <city name="滨州市" postcode="371600" />
+    <city name="菏泽市" postcode="371700" />
+  </province>
+
+  <province name="河南省" postcode="410000" >
+    <city name="郑州市" postcode="410100" />
+    <city name="开封市" postcode="410200" />
+    <city name="洛阳市" postcode="410300" />
+    <city name="平顶山市" postcode="410400" />
+    <city name="安阳市" postcode="410500" />
+    <city name="鹤壁市" postcode="410600" />
+    <city name="新乡市" postcode="410700" />
+    <city name="焦作市" postcode="410800" />
+    <city name="濮阳市" postcode="410900" />
+    <city name="许昌市" postcode="411000" />
+    <city name="漯河市" postcode="411100" />
+    <city name="三门峡市" postcode="411200" />
+    <city name="南阳市" postcode="411300" />
+    <city name="商丘市" postcode="411400" />
+    <city name="信阳市" postcode="411500" />
+    <city name="周口市" postcode="411600" />
+    <city name="驻马店市" postcode="411700" />
+  </province>
+
+  <province name="湖北省" postcode="420000" >
+    <city name="武汉市" postcode="420100" />
+    <city name="黄石市" postcode="420200" />
+    <city name="十堰市" postcode="420300" />
+    <city name="宜昌市" postcode="420500" />
+    <city name="襄樊市" postcode="420600" />
+    <city name="鄂州市" postcode="420700" />
+    <city name="荆门市" postcode="420800" />
+    <city name="孝感市" postcode="420900" />
+    <city name="荆州市" postcode="421000" />
+    <city name="黄冈市" postcode="421100" />
+    <city name="咸宁市" postcode="421200" />
+    <city name="随州市" postcode="421300" />
+    <city name="恩施土家族苗族自治州" postcode="422800" />
+    <city name="省直辖行政单位" postcode="429000" />
+  </province>
+
+  <province name="湖南省" postcode="430000" >
+    <city name="长沙市" postcode="430100" />
+    <city name="株洲市" postcode="430200" />
+    <city name="湘潭市" postcode="430300" />
+    <city name="衡阳市" postcode="430400" />
+    <city name="邵阳市" postcode="430500" />
+    <city name="岳阳市" postcode="430600" />
+    <city name="常德市" postcode="430700" />
+    <city name="张家界市" postcode="430800" />
+    <city name="益阳市" postcode="430900" />
+    <city name="郴州市" postcode="431000" />
+    <city name="永州市" postcode="431100" />
+    <city name="怀化市" postcode="431200" />
+    <city name="娄底市" postcode="431300" />
+    <city name="湘西土家族苗族自治州" postcode="433100" />
+  </province>
+
+  <province name="广东省" postcode="440000" >
+    <city name="广州市" postcode="440100" />
+    <city name="韶关市" postcode="440200" />
+    <city name="深圳市" postcode="440300" />
+    <city name="珠海市" postcode="440400" />
+    <city name="汕头市" postcode="440500" />
+    <city name="佛山市" postcode="440600" />
+    <city name="江门市" postcode="440700" />
+    <city name="湛江市" postcode="440800" />
+    <city name="茂名市" postcode="440900" />
+    <city name="肇庆市" postcode="441200" />
+    <city name="惠州市" postcode="441300" />
+    <city name="梅州市" postcode="441400" />
+    <city name="汕尾市" postcode="441500" />
+    <city name="河源市" postcode="441600" />
+    <city name="阳江市" postcode="441700" />
+    <city name="清远市" postcode="441800" />
+    <city name="东莞市" postcode="441900" />
+    <city name="中山市" postcode="442000" />
+    <city name="潮州市" postcode="445100" />
+    <city name="揭阳市" postcode="445200" />
+    <city name="云浮市" postcode="445300" />
+  </province>
+
+  <province name="广西壮族自治区" postcode="450000" >
+    <city name="南宁市" postcode="450100" />
+    <city name="柳州市" postcode="450200" />
+    <city name="桂林市" postcode="450300" />
+    <city name="梧州市" postcode="450400" />
+    <city name="北海市" postcode="450500" />
+    <city name="防城港市" postcode="450600" />
+    <city name="钦州市" postcode="450700" />
+    <city name="贵港市" postcode="450800" />
+    <city name="玉林市" postcode="450900" />
+    <city name="百色市" postcode="451000" />
+    <city name="贺州市" postcode="451100" />
+    <city name="河池市" postcode="451200" />
+    <city name="来宾市" postcode="451300" />
+    <city name="崇左市" postcode="451400" />
+  </province>
+
+  <province name="海南省" postcode="460000" >
+    <city name="海口市" postcode="460100" />
+    <city name="三亚市" postcode="460200" />
+    <city name="三沙市" postcode="460300" />
+    <city name="五指山市" postcode="469001"/>
+    <city name="琼海市" postcode="469002"/>
+    <city name="儋州市" postcode="469003"/>
+    <city name="文昌市" postcode="469005"/>
+    <city name="万宁市" postcode="469006"/>
+    <city name="东方市" postcode="469007"/>
+    <city name="定安县" postcode="469025"/>
+    <city name="屯昌县" postcode="469026"/>
+    <city name="澄迈县" postcode="469027"/>
+    <city name="临高县" postcode="469028"/>
+    <city name="白沙黎族自治县" postcode="469030"/>
+    <city name="昌江黎族自治县" postcode="469031"/>
+    <city name="乐东黎族自治县" postcode="469033"/>
+    <city name="陵水黎族自治县" postcode="469034"/>
+    <city name="保亭黎族苗族自治县" postcode="469035"/>
+    <city name="琼中黎族苗族自治县" postcode="469036" />
+    <city name="西沙群岛" postcode="469037" />
+    <city name="南沙群岛" postcode="469038" />
+    <city name="中沙群岛的岛礁及其海域" postcode="469039" />
+  </province>
+
+  <province name="重庆" postcode="500000" >
+        <city name="万州区" postcode="500101" />
+        <city name="涪陵区" postcode="500102" />
+        <city name="渝中区" postcode="500103" />
+        <city name="大渡口区" postcode="500104" />
+        <city name="江北区" postcode="500105" />
+        <city name="沙坪坝区" postcode="500106" />
+        <city name="九龙坡区" postcode="500107" />
+        <city name="南岸区" postcode="500108" />
+        <city name="北碚区" postcode="500109" />
+        <city name="万盛区" postcode="500110" />
+        <city name="双桥区" postcode="500111" />
+        <city name="渝北区" postcode="500112" />
+        <city name="巴南区" postcode="500113" />
+        <city name="黔江区" postcode="500114" />
+        <city name="长寿区" postcode="500115" />
+        <city name="江津区" postcode="500116" />
+        <city name="合川区" postcode="500117" />
+        <city name="永川区" postcode="500118" />
+        <city name="南川区" postcode="500119" />
+        <city name="綦江县" postcode="500222" />
+        <city name="潼南县" postcode="500223" />
+        <city name="铜梁县" postcode="500224" />
+        <city name="大足县" postcode="500225" />
+        <city name="荣昌县" postcode="500226" />
+        <city name="璧山县" postcode="500227" />
+        <city name="梁平县" postcode="500228" />
+        <city name="城口县" postcode="500229" />
+        <city name="丰都县" postcode="500230" />
+        <city name="垫江县" postcode="500231" />
+        <city name="武隆县" postcode="500232" />
+        <city name="忠县" postcode="500233" />
+        <city name="开县" postcode="500234" />
+        <city name="云阳县" postcode="500235" />
+        <city name="奉节县" postcode="500236" />
+        <city name="巫山县" postcode="500237" />
+        <city name="巫溪县" postcode="500238" />
+        <city name="石柱土家族自治县" postcode="500240" />
+        <city name="秀山土家族苗族自治县" postcode="500241" />
+        <city name="酉阳土家族苗族自治县" postcode="500242" />
+        <city name="彭水苗族土家族自治县" postcode="500243" />
+  </province>
+
+  <province name="四川省" postcode="510000" >
+    <city name="成都市" postcode="510100" />
+    <city name="自贡市" postcode="510300" />
+    <city name="攀枝花市" postcode="510400" />
+    <city name="泸州市" postcode="510500" />
+    <city name="德阳市" postcode="510600" />
+    <city name="绵阳市" postcode="510700" />
+    <city name="广元市" postcode="510800" />
+    <city name="遂宁市" postcode="510900" />
+    <city name="内江市" postcode="511000" />
+    <city name="乐山市" postcode="511100" />
+    <city name="南充市" postcode="511300" />
+    <city name="眉山市" postcode="511400" />
+    <city name="宜宾市" postcode="511500" />
+    <city name="广安市" postcode="511600" />
+    <city name="达州市" postcode="511700" />
+    <city name="雅安市" postcode="511800" />
+    <city name="巴中市" postcode="511900" />
+    <city name="资阳市" postcode="512000" />
+    <city name="阿坝藏族羌族自治州" postcode="513200" />
+    <city name="甘孜藏族自治州" postcode="513300" />
+    <city name="凉山彝族自治州" postcode="513400" />
+  </province>
+
+  <province name="贵州省" postcode="520000" >
+    <city name="贵阳市" postcode="520100" />
+    <city name="六盘水市" postcode="520200" />
+    <city name="遵义市" postcode="520300" />
+    <city name="安顺市" postcode="520400" />
+    <city name="铜仁地区" postcode="522200" />
+    <city name="黔西南布依族苗族自治州" postcode="522300" />
+    <city name="毕节地区" postcode="522400" />
+    <city name="黔东南苗族侗族自治州" postcode="522600" />
+    <city name="黔南布依族苗族自治州" postcode="522700" />
+  </province>
+
+  <province name="云南省" postcode="530000" >
+    <city name="昆明市" postcode="530100" />
+    <city name="曲靖市" postcode="530300" />
+    <city name="玉溪市" postcode="530400" />
+    <city name="保山市" postcode="530500" />
+    <city name="昭通市" postcode="530600" />
+    <city name="丽江市" postcode="530700" />
+    <city name="思茅市" postcode="530800" />
+    <city name="临沧市" postcode="530900" />
+    <city name="楚雄彝族自治州" postcode="532300" />
+    <city name="红河哈尼族彝族自治州" postcode="532500" />
+    <city name="文山壮族苗族自治州" postcode="532600" />
+    <city name="西双版纳傣族自治州" postcode="532800" />
+    <city name="大理白族自治州" postcode="532900" />
+    <city name="德宏傣族景颇族自治州" postcode="533100" />
+    <city name="怒江傈僳族自治州" postcode="533300" />
+    <city name="迪庆藏族自治州" postcode="533400" />
+  </province>
+
+  <province name="西藏自治区" postcode="540000" >
+    <city name="拉萨市" postcode="540100" />
+    <city name="昌都地区" postcode="542100" />
+    <city name="山南地区" postcode="542200" />
+    <city name="日喀则地区" postcode="542300" />
+    <city name="那曲地区" postcode="542400" />
+    <city name="阿里地区" postcode="542500" />
+    <city name="林芝地区" postcode="542600" />
+  </province>
+
+  <province name="陕西省" postcode="610000" >
+    <city name="西安市" postcode="610100" />
+    <city name="铜川市" postcode="610200" />
+    <city name="宝鸡市" postcode="610300" />
+    <city name="咸阳市" postcode="610400" />
+    <city name="渭南市" postcode="610500" />
+    <city name="延安市" postcode="610600" />
+    <city name="汉中市" postcode="610700" />
+    <city name="榆林市" postcode="610800" />
+    <city name="安康市" postcode="610900" />
+    <city name="商洛市" postcode="611000" />
+  </province>
+
+  <province name="甘肃省" postcode="620000" >
+    <city name="兰州市" postcode="620100" />
+    <city name="嘉峪关市" postcode="620200" />
+    <city name="金昌市" postcode="620300" />
+    <city name="白银市" postcode="620400" />
+    <city name="天水市" postcode="620500" />
+    <city name="武威市" postcode="620600" />
+    <city name="张掖市" postcode="620700" />
+    <city name="平凉市" postcode="620800" />
+    <city name="酒泉市" postcode="620900" />
+    <city name="庆阳市" postcode="621000" />
+    <city name="定西市" postcode="621100" />
+    <city name="陇南市" postcode="621200" />
+    <city name="临夏回族自治州" postcode="622900" />
+    <city name="甘南藏族自治州" postcode="623000" />
+  </province>
+
+  <province name="青海省" postcode="630000" >
+    <city name="西宁市" postcode="630100" />
+    <city name="海东地区" postcode="632100" />
+    <city name="海北藏族自治州" postcode="632200" />
+    <city name="黄南藏族自治州" postcode="632300" />
+    <city name="海南藏族自治州" postcode="632500" />
+    <city name="果洛藏族自治州" postcode="632600" />
+    <city name="玉树藏族自治州" postcode="632700" />
+    <city name="海西蒙古族藏族自治州" postcode="632800" />
+  </province>
+
+  <province name="宁夏回族自治区" postcode="640000" >
+    <city name="银川市" postcode="640100" />
+    <city name="石嘴山市" postcode="640200" />
+    <city name="吴忠市" postcode="640300" />
+    <city name="固原市" postcode="640400" />
+    <city name="中卫市" postcode="640500" />
+  </province>
+
+  <province name="新疆维吾尔自治区" postcode="650000" >
+    <city name="乌鲁木齐市" postcode="650100" />
+    <city name="克拉玛依市" postcode="650200" />
+    <city name="吐鲁番地区" postcode="652100" />
+    <city name="哈密地区" postcode="652200" />
+    <city name="昌吉回族自治州" postcode="652300" />
+    <city name="博尔塔拉蒙古自治州" postcode="652700" />
+    <city name="巴音郭楞蒙古自治州" postcode="652800" />
+    <city name="阿克苏地区" postcode="652900" />
+    <city name="克孜勒苏柯尔克孜自治州" postcode="653000" />
+    <city name="喀什地区" postcode="653100" />
+    <city name="和田地区" postcode="653200" />
+    <city name="伊犁哈萨克自治州" postcode="654000" />
+    <city name="塔城地区" postcode="654200" />
+    <city name="阿勒泰地区" postcode="654300" />
+    <city name="省直辖行政单位" postcode="659000" />
+  </province>
+  <province name="香港特别行政区" postcode="32">
+		<city name="香港" postcode="320101"/>
+		<city name="九龙" postcode="320102"/>
+		<city name="新界" postcode="320103"/>
+		<city name="中环" postcode="320104"/>
+		<city name="铜锣湾" postcode="320105"/>
+	</province>
+  <province name="澳门特别行政区" postcode="33">
+	<city name="澳门" postcode="3301"/>
+  </province>
+  <province name="台湾省" postcode="34">
+	<city name="台北" postcode="3401"/>
+	<city name="高雄" postcode="3402"/>
+	<city name="台南" postcode="3403"/>
+	<city name="台中" postcode="3404"/>
+	<city name="桃园" postcode="3405"/>
+	<city name="新竹" postcode="3406"/>
+	<city name="宜兰" postcode="3407"/>
+	<city name="澎湖" postcode="3408"/>
+	<city name="嘉义" postcode="3409"/>
+	<city name="花莲" postcode="3410"/>
+	<city name="台东" postcode="3411"/>
+	<city name="基隆" postcode="3412"/>
+  </province>
+</root>

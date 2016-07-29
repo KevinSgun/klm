@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/CommonLinearLayoutStyle"
+        >
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="可提现金额" />
+
+        <TextView
+            android:id="@+id/profit_tv"
+            style="@style/TextBlank.Medium"
+            android:layout_marginLeft="@dimen/w54"
+            android:text="@string/rmb"
+            android:textColor="@color/textColorPink" />
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/CommonLinearLayoutStyle"
+        >
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:text="提现" />
+
+        <EditText
+            android:id="@+id/take_cash_et"
+            style="@style/CommonEditStyle"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="@dimen/w54"
+            android:hint="输入提现金额"
+            android:textColor="@color/textColorPink" />
+    </LinearLayout>
+    <View style="@style/DividerHorizontalLine" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_color" />
+    <Button
+        android:id="@+id/commit_btn"
+        style="@style/CommonButtonStyle"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_common_react"
+        android:text="@string/commit"/>
+</LinearLayout>

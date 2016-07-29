@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.zitech.framework.widget.RemoteImageView
+                android:id="@+id/store_icon_iv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/w336" />
+
+            <ImageView
+                android:id="@+id/edit_store_icon_iv"
+                android:layout_width="@dimen/w68"
+                android:layout_height="@dimen/w68"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="@dimen/w30"
+                android:layout_marginRight="@dimen/w30"
+                android:src="@mipmap/ic_edit_store_pic" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/w20"
+            android:background="@color/bg_color" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="商户名称"
+                />
+
+            <EditText
+                android:id="@+id/store_name_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w54"
+                android:hint="请输入商户名称（必填）"
+                android:maxLength="16"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="营业时间"
+                />
+
+            <TextView
+                android:id="@+id/business_time_start_tv"
+                style="@style/TextBlank.Medium"
+                android:layout_marginLeft="@dimen/w54"
+                android:background="@drawable/bg_stroke_gray"
+                android:paddingBottom="@dimen/w10"
+                android:paddingLeft="@dimen/w18"
+                android:paddingRight="@dimen/w18"
+                android:paddingTop="@dimen/w10"
+                android:text="09:30" />
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:layout_marginLeft="@dimen/w10"
+                android:layout_marginRight="@dimen/w10"
+                android:text="至" />
+
+            <TextView
+                android:id="@+id/business_time_end_tv"
+                style="@style/TextBlank.Medium"
+                android:background="@drawable/bg_stroke_gray"
+                android:paddingBottom="@dimen/w10"
+                android:paddingLeft="@dimen/w18"
+                android:paddingRight="@dimen/w18"
+                android:paddingTop="@dimen/w10"
+                android:text="23:59" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="店铺电话"
+                />
+
+            <EditText
+                android:id="@+id/phone_num_et"
+                style="@style/CommonEditStyle"
+                android:layout_marginLeft="@dimen/w54"
+                android:hint="请输入店铺电话"
+                android:inputType="phone"
+                android:maxLength="13"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout
+            android:id="@+id/store_address_layout"
+            style="@style/CommonLinearLayoutStyle"
+            android:background="@drawable/sl_common_item">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="店铺地址"
+                />
+
+            <TextView
+                android:id="@+id/address_tv"
+                style="@style/TextBlank.Medium"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/w54"
+                android:layout_weight="1"
+                android:maxLength="13"
+                android:singleLine="true"
+                android:text="广东省 深圳市 南山区" />
+
+            <ImageView
+                android:layout_width="@dimen/w16"
+                android:layout_height="@dimen/w28"
+                android:layout_marginLeft="@dimen/w10"
+                android:src="@mipmap/ic_arrow_gray" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout
+            style="@style/CommonLinearLayoutStyle"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/comment_item_height">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="详细地址"
+                />
+
+            <EditText
+                android:id="@+id/address_detail_et"
+                style="@style/CommonEditStyle"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/w54"
+                android:hint="请输入详细地址（必填）"
+                android:maxLength="80"
+                android:minHeight="@dimen/comment_item_height"
+                android:paddingBottom="@dimen/w15"
+                android:paddingTop="@dimen/w15" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalLine"
+            android:layout_marginLeft="@dimen/w30" />
+
+        <LinearLayout
+            style="@style/CommonLinearLayoutStyle"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/w240">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:layout_marginTop="@dimen/w30"
+                android:text="店铺介绍"
+                android:layout_gravity="top"
+                />
+
+            <EditText
+                android:id="@+id/store_introduce_et"
+                style="@style/CommonEditStyle"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/w54"
+                android:gravity="top|left"
+                android:hint="请输入店铺介绍(200字以内)"
+                android:maxLength="200"
+                android:minHeight="@dimen/w240"
+                android:paddingBottom="@dimen/w15"
+                android:paddingTop="@dimen/w30" />
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/bg_color" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextBlank.Medium"
+            android:padding="@dimen/w30"
+            android:text="可提现（元）" />
+
+        <TextView
+            android:id="@+id/take_cash_balance_tv"
+            style="@style/TextBlank.Large"
+            android:paddingLeft="@dimen/w30"
+            android:paddingRight="@dimen/w30"
+            android:text="100.00"
+            android:textColor="@color/pure_black"
+            android:textSize="@dimen/w80" />
+
+        <Button
+            android:id="@+id/take_cash_btn"
+            style="@style/CommonButtonStyle"
+            android:layout_width="@dimen/w200"
+            android:layout_height="@dimen/w70"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/w30"
+            android:layout_marginTop="@dimen/w20"
+            android:background="@drawable/btn_common_react"
+            android:text="提现" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/w20"
+            android:layout_marginTop="@dimen/w30"
+            android:background="@color/bg_color" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="已提现利润" />
+
+            <View style="@style/SpaceAutoFit" />
+
+            <TextView
+                android:id="@+id/had_take_cash_tv"
+                style="@style/TextBlank.Medium"
+                android:text="@string/rmb" />
+
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+
+        <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="提现中" />
+
+            <View style="@style/SpaceAutoFit" />
+
+            <TextView
+                android:id="@+id/in_take_cash_tv"
+                style="@style/TextBlank.Medium"
+                android:text="@string/rmb" />
+
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/w20"
+            android:background="@color/bg_color" />
+
+        <LinearLayout
+            style="@style/CommonLinearLayoutStyle"
+            >
+
+            <TextView
+                style="@style/TextBlank.Medium"
+                android:text="收款账户信息" />
+
+            <View style="@style/SpaceAutoFit" />
+
+            <TextView
+                android:id="@+id/account_info_tv"
+                style="@style/TextBlank.Medium"
+                android:text="尚未绑定提现账户"
+                android:textColor="@color/textColorRed" />
+
+        </LinearLayout>
+        <View style="@style/DividerHorizontalLine" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+                <TextView
+                    style="@style/TextBlank.Medium"
+                    android:text="账户类型" />
+
+                <TextView
+                    android:id="@+id/account_type_tv"
+                    style="@style/TextBlank.Medium"
+                    android:layout_marginLeft="@dimen/w56"
+                    android:text="银行卡"
+                    android:textColor="@color/pure_black" />
+
+            </LinearLayout>
+
+            <View style="@style/DividerHorizontalLine"
+                android:layout_marginLeft="@dimen/w30"/>
+
+            <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+                <TextView
+                    style="@style/TextBlank.Medium"
+                    android:text="收款账户" />
+
+                <TextView
+                    android:id="@+id/account_tv"
+                    style="@style/TextBlank.Medium"
+                    android:layout_marginLeft="@dimen/w56"
+                    android:text="621***773"
+                    android:textColor="@color/pure_black" />
+
+            </LinearLayout>
+
+            <View style="@style/DividerHorizontalLine"
+                android:layout_marginLeft="@dimen/w30"/>
+
+            <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+                <TextView
+                    style="@style/TextBlank.Medium"
+                    android:text="开户行" />
+
+                <TextView
+                    android:id="@+id/account_bank_tv"
+                    style="@style/TextBlank.Medium"
+                    android:layout_marginLeft="@dimen/w84"
+                    android:text="中国银行"
+                    android:textColor="@color/pure_black" />
+
+            </LinearLayout>
+
+            <View style="@style/DividerHorizontalLine"
+                android:layout_marginLeft="@dimen/w30"/>
+
+            <LinearLayout style="@style/CommonLinearLayoutStyle">
+
+                <TextView
+                    style="@style/TextBlank.Medium"
+                    android:text="账户名" />
+
+                <TextView
+                    android:id="@+id/account_name_tv"
+                    style="@style/TextBlank.Medium"
+                    android:layout_marginLeft="@dimen/w84"
+                    android:text="张*"
+                    android:textColor="@color/pure_black" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/DividerHorizontalLine" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/bg_color" />
+
+        <Button
+            android:id="@+id/binding_account_btn"
+            style="@style/CommonButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/w100"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/btn_common_react"
+            android:text="绑定提账户" />
+    </LinearLayout>
+</ScrollView>

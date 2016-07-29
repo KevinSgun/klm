@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">快来美-商家版</string>
+    <string name="select_from_the_phone_album">从手机相册选择</string>
+    <string name="album_error_prompt">相册</string>
+    <string name="alubm_title">相册</string>
+    <string name="image_noloading">进入相册失败</string>
+    <string name="image_count_limited">最多只能选择%d张图片</string>
+    <string name="home_page">首页</string>
+    <string name="save">保存</string>
+    <string name="add">添加</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="handle">操作</string>
+    <string name="message">消息</string>
+    <string name="clear">清空</string>
+
+    <!--登录、账号信息相关 stat-->
+    <string name="please_input_phone">请输入手机号码</string>
+    <string name="enter_right_phone_num">请输入正确的手机号</string>
+    <string name="incorrect_password_format">密码必须为6–15位数字或字母</string>
+    <string name="please_input_psd">请输入密码</string>
+    <string name="free_register">免费注册</string>
+    <string name="forget_psd">忘记密码</string>
+    <string name="incorrect_phone">忘记密码</string>
+    <string name="incorrect_psd">密码错误</string>
+    <string name="login">登录</string>
+    <string name="please_input_verify_code">请输入验证码</string>
+    <string name="please_set_psd">请设置密码</string>
+    <string name="register_protocol_agree">注册/登录代表您已同意</string>
+    <string name="user_protocol">《用户协议》</string>
+    <string name="had_account">已有账号？</string>
+    <string name="login_direct">直接登录</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="tenants_login">店家登录</string>
+    <string name="employee_login">员工登录</string>
+    <string name="please_set_new_psd">请输入新密码</string>
+    <string name="please_set_old_psd">请输入原密码</string>
+    <string name="please_input_new_psd_tip">请输入新密码，不少于6位</string>
+    <string name="please_input_new_psd_again">请再次输入新密码</string>
+    <string name="commit">提交</string>
+    <string name="reset_psd">重置密码</string>
+    <string name="get_verify_second">%d秒后重新获取</string>
+    <string name="binding_account">绑定账户</string>
+    <!--登录、账号信息相关 end-->
+
+    <!--订单相关 start -->
+    <string name="wait_pay">待付款(%d)</string>
+    <string name="wait_comment">待评价(%d)</string>
+    <string name="refund">退款(%d)</string>
+    <string name="rmb">￥%.2f</string>
+    <string name="money">%.2f</string>
+    <!--订单相关 end -->
+
+    <!--时间、日期相关 start-->
+    <string name="rightnow">刚刚</string>
+    <string name="minuteBefore">分钟前</string>
+    <string name="hourBefore">小时前</string>
+    <string name="today">今天</string>
+    <string name="yestoday">昨天</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="splithe">-</string>
+    <string name="day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+    <!--时间、日期相关 end-->
+
+    <!-- MineFragment start -->
+    <string name="my_account">我的账户</string>
+    <string name="about_us">关于我们</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="sys_setting">系统设置</string>
+   <!-- MineFragment end -->
+
+    <!-- 总成交额模块相关 start-->
+    <string name="cash_performance">现金业绩</string>
+    <string name="sale_card_performance">销卡业绩</string>
+    <string name="total_order_count">客单总数</string>
+    <!-- 总成交额模块相关 end-->
+
+    <!-- 我的合伙人模块相关 start-->
+    <string name="first_partner">一级会员</string>
+    <string name="second_partner">二级会员</string>
+    <string name="third_partner">三级会员</string>
+    <!-- 我的合伙人模块相关 end-->
+
+    <!-- 员工管理相关 start-->
+    <string name="emp_manager">员工管理</string>
+    <!-- 员工管理相关 end-->
+
+    <!-- 项目管理相关 start-->
+    <string name="item_manager">项目管理</string>
+    <!-- 项目管理相关 end-->
+
+    <!-- 员工端 start-->
+    <string name="order_manager">订单管理</string>
+    <string name="edit_signature">个性签名</string>
+    <string name="edit_signature_hint">一句话描述你的个性签名</string>
+    <string name="personal_works">个人作品</string>
+    <!-- 员工端 end-->
+</resources>
